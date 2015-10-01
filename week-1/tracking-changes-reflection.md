@@ -24,9 +24,11 @@ git commit commits the file to the repository and the committed files are ready 
 
 ### Write a handy cheatsheet of the commands you need to commit your changes?
 
-- git status
-- git add
-- git commit
+In this order!
+
+- git status -  checks status of git
+- git add - adds changed files to commit queue
+- git commit  - confirms the commit
 - git status
 - git log
 
@@ -40,6 +42,6 @@ git commit commits the file to the repository and the committed files are ready 
 
 - On GitHub, the pull request will appear on the repository page. Hit the button to pull the request. Make sure that this is happneing under your username and that the base is the master. Hit the Merge pull request button. Once successfully merged, the feature-branch may be deleted.
 
-Why are pull requests preferred when working with teams?
+### Why are pull requests preferred when working with teams?
 
 Pull requests are good for working with teams because multiple members of a team may be working on the same file. Pull requests ensure that members can appropriately label the changes that they made so that their team members can understand and approve of the changes. This ensures that group can collaborate on the same project without worrying about overwriting each others' files or inadvertently destroying the project.
