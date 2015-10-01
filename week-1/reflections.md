@@ -6,6 +6,7 @@ Time boxing is an interesting method because it makes work focused on the time p
 
 I also think that this way of working will help with time management, because I do not have a current work structure. In college, I was always a procrastinator, but I realize that my way of working was really ineffective and really exhausting. I also find stress to be motivating, but also triggering to my anxiety, so meditation will probably help. Also, I never knew that meditation had so many benefits for the brain, so I'm excited to give it a try. This, coupled with time boxing and the Fogg method (specifically focusing on small victories), will help me establish a work routine that is productive and sustainable, and also will help keep the work fun rather than more stressful and overwhelming. I think establishing a routine in the first weeks of Phase 0 will help keep me on track and organized, and I love being organized.
 
+
 ## 1.2 The Command Line Reflection
 
 A shell is an interface that allows you to access the operating system. Bash is a language that allows you to navigate and control this interface.
