@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![site map](/week-2/imgs/site-map.jpg)
 
 ###What are the 6 Phases of Web Design?
@@ -33,3 +34,6 @@ User experience design is catering to the user and designing with the user in mi
 ###Which parts of the challenge did you find tedious?
 
 I had some trouble figuring out how to use Markdown. This is something that I've never heard of before, and I found the website link provided did not adequately explain how it is to be used and what each part of the code meant. It took some troubleshooting of my own, as well as some tweaking both in my textfile and later on GitHub to get my image to display properly, but I couldn't figure out why it started working and why it wasn't working before. I could tell from Slack that others had similar issues in getting this to work and figuring out how and why it does/doesn't. I still don't have a grasp on Markdown, which I find frustrating and a bit tedious.
+=======
+![Alt text](DBC-Stuff/phase-0/week-2/imgs/site-map.jpg)
+>>>>>>> master
