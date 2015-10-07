@@ -1,5 +1,5 @@
-![wireframe](DBC-Stuff/phase-0/week-2/imgs/wireframe_index.png)
-![blog-index-wireframe](DBC-Stuff/phase-0/week-2/imgs/wireframe_blog_index.png)
+![wireframe](/phase-0/week-2/imgs/wireframe_index.png)
+![blog-index-wireframe](/phase-0/week-2/imgs/wireframe_blog_index.png)
 
 ###What is a wireframe?
 
