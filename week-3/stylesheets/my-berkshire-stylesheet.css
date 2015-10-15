@@ -1,0 +1,53 @@
+html {
+  background-color: #ffffff;
+  color: #000080;
+}
+
+a:link {
+    color:#800080;
+}
+a:visited {
+    color:#ff0000;
+}
+ul > p {
+	font-size: .6em;
+}
+h2 {
+    font-weight:bold;
+    font-size: 1.25em;
+    text-align:center;
+}
+h2 span {
+	font-size: 2.25em;
+}
+h5 {
+    font-weight:bold;
+    text-align:center;
+    margin-top: -1em;
+}
+h4 {
+    font-weight:bold;
+    text-align:center;
+    margin-top: -1em;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background: #d3d5d3;
+}
+section {
+	text-align: center;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+I learned how to navigate to a different directory when linking, which was pretty cool. It makes sense that you need to back out of your current directory before being able to access the files contained in another, but I had never done it before. It makes a lot of sense. I think that was very important to learn, because I'm sure not all files that I want linked will be contained within the same directory.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We had to completely restructure our HTML from an unordered list into a table in order to get positioning right. I don't know if there was a better way, but none of the "tricks" we found were fruitful in application. It was extremely hard to format the site the way we wanted, and probably took the longest out of every step in the challenge.
+What CSS did you use to modify the element style (like size, color, etc.)
+We used CSS for all formatting: centering, alignment, bold, color, font, and font size. We used HTML in order to get two columns in our format because none of the CSS we tried to use to do the same thing worked.
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+We did create a class in order to get the horizontal lines to work. We made special <div>s on our HTML where we wanted our lines to go. That made the most sense to us since we couldn't just add it in the HTML itself.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+Our code definitely seemed cleaner. Theirs being in HTML, they had to apply a lot of similar changes to similar elements over and over again, whereas in CSS we only had to make one element to apply to a certain tag. The latter way is much more efficient, albeit more frustrating to get right at times. From what I've seen so far, using CSS for anything styling related is considered best practice, and with a bit of practice, will probably be a little less frustrating than it was today.
+*/
