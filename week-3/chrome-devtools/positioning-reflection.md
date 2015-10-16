@@ -21,7 +21,7 @@ What was your impression of this challenge overall? (love, hate, and why?)
 
 This challenge was frustrating at times, because I did not have a lot of knowledge about positioning before. Codeacademy is sometimes hard to learn from because they give you most of the answers upfront, so I didn't feel like I had retained a lot of what was taught there. However, it did feel extremely satisfying when we were able to troubleshoot, research, and then solve problems together.
 
-![image_1](/phase-0/week-3/chrome-devtools/imgs/3.4.1.png)
+![image_1](/3.4.1.png)
 ![image_2](/imgs/3.4.2.png)
 ![image_3](/imgs/3.4.3.png)
 ![image_4](/imgs/3.4.4.png)
