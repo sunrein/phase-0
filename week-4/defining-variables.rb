@@ -1,6 +1,11 @@
-first_name='Sabrina'
-last_name='Unrein'
-age=22
+first_name = "Sabrina"
+last_name = "Unrein"
+age = 22
+
+p first_name
+p last_name
+p age
+
 
 describe 'first_name' do
   it "is defined as a local variable" do
