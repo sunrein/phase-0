@@ -1,3 +1,7 @@
+https://github.com/sunrein/phase-0/blob/master/week-4/defining-variables.rb
+https://github.com/sunrein/phase-0/blob/master/week-4/simple-string.rb
+https://github.com/sunrein/phase-0/blob/master/week-4/basic-math.rb
+
 What does puts do?
 
 Puts prints the result of a program to the console with a new line, but returns nil.
@@ -35,10 +39,14 @@ puts 60*24*365*10
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
 I'm not sure exactly what this question is asking. In terms of syntax, Ruby uses:
+
+```
 + addition
 - subtraction
 * multiplication
 / division
+
+```
 
 What is the difference between integers and floats?
 
@@ -58,7 +66,3 @@ A local variable is a variable defined within a set of code. They are used when 
 How was this challenge? Did you get a good review of some of the basics?
 
 This challenge was pretty easy. It took some playing with to get the tests right, but it was mostly a matter of where I was putting the code in the doc, and once I figured out where it needed to go, everything was fine. It was a good refresher, mainly for a lot of the object-oriented language vernacular. I'm excited to get to play a bit more with Ruby, and I liked this way of practicing much more than working with something like CodeAcademy.
-
-https://github.com/sunrein/phase-0/blob/master/week-4/defining-variables.rb
-https://github.com/sunrein/phase-0/blob/master/week-4/simple-string.rb
-https://github.com/sunrein/phase-0/blob/master/week-4/basic-math.rb
