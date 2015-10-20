@@ -1,3 +1,7 @@
+LINKS TO OTHER SUBMISSIONS:
+https://github.com/sunrein/phase-0/blob/master/week-4/address/my_solution.rb
+https://github.com/sunrein/phase-0/blob/master/week-4/math/my_solution.rb
+
 puts 'Hello there, and what\'s your first name?'
 f_name = gets.chomp
 puts 'What is your middle name?'
