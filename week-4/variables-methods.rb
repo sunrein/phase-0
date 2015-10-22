@@ -19,7 +19,7 @@ puts fav_num.to_i + 1
 
 
 How do you define a local variable?
-Local variables are made by naming a variable and assigining it a value. This value can be one submitted by the user, in which case you would use "gets.chomp" in order to receive user data. Local variables should begin with lower case letters and have underscores instead of spaces.
+Local variables are made by naming a variable and assigining it a value. This value can be one submitted by the user, in which case you would use "gets.chomp" in order to receive user data. Local variables should begin with lower case letters and have underscores instead of spaces. They are called local because of their limited scope. They are only recognized in certain areas of the program, based on where and how they are defined.
 
 How do you define a method?
 	Start by declaring a method and the parameters. For instance "def  method(a,b,c)." from there you can give the method an action to do when called. Make sure to include "end" when done.
