@@ -12,5 +12,17 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  list_of_words.min { |a, b| a.length <=> b.length }
+  
+  return nil if list_of_words.length == 0
+  
+  shortest= list_of_words[0]
+ 
+  list_of_words.each { |string|
+    if shortest.length > string.length
+      shortest = string
+    end
+    }
+  p shortest
 end
+
+shortest_string(['cat', 'zzzzzzz', 'apples'])

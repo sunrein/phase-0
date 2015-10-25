@@ -13,5 +13,17 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-  list_of_words.max { |a, b| a.length <=> b.length }
+  
+  return nil if list_of_words.length == 0
+  
+  longest= list_of_words[0]
+ 
+  list_of_words.each { |string|
+    if longest.length < string.length
+      longest = string
+    end
+    }
+  p longest
 end
+
+longest_string(['cat', 'zzzzzzz', 'apples'])

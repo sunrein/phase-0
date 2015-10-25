@@ -11,8 +11,18 @@
 # If +list_of_nums+ is empty the method should return nil
 
 # Your Solution Below
-def largest_integer(list_of_nums)
-  p list_of_nums.max
+def largest_integer(list_of_numbers)
+  
+  return nil if list_of_numbers.length == 0
+
+  largest_n = list_of_numbers[0]
+ 
+  list_of_numbers.each do |n|
+    if largest_n < n
+      largest_n = n
+    end
+  end
+  p largest_n
 end
 
-largest_integer([1,2,3,4,5])
+largest_integer([4,5,700,-1])
