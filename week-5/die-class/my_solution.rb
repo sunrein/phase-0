@@ -35,7 +35,7 @@ class Die
   end
 end
 
-d = Die.new(100)
+d = Die.new([100)
 puts d.sides
 puts d.roll
 
@@ -45,7 +45,7 @@ class Die
     @sides = sides
     @roll = roll
      if @sides < 1
-    raise ArgumentError.new("Can only accept numbers greater than 1")
+    raise ArgumentError.new("Can only accept numbers 1 or greater")
   	end
   end
 
