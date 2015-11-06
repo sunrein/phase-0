@@ -3,14 +3,32 @@
 # I worked on this challenge [by myself]
 # I spent [#] hours on this challenge.
 
+#Pseudocode
+# input: a name
+# output: a greeting that uses the name
+
+
 class NameData
-
+  attr_accessor :name  
+  def initialize
+    @name = "Sabrina"
+  end
 end
-
 
 class Greetings
 
+  def initialize
+    @my_name =  NameData.new.name
+  end
+  
+  
+  def hello
+    puts "Hello " + @my_name + "! How wonderful to see you today."
+  end
 end
+
+greet = Greetings.new
+greet.hello
 
 
 
@@ -53,3 +71,25 @@ end
 # Is this code simpler than the last?
 
 # Yes, this code is simpler. We have condensed two several line methods into two lines of code, the attr_writer and the attr_reader, which can store, return, and replace the age.
+
+# Release 6
+
+# What is a reader method?
+
+# A reader method accepts an element (like a name, age, or occupation), and stores that information in a method. This way, say if you had a attr_reader :name, you could call the method .name and it would return the value that was assigned to name.
+
+# What is a writer method?
+
+# A writer method can change the value stored in the method of the same name. Much like you can call the value of attr_reader :name with .name, you can also change the value of .name if you have attr_writer :name
+
+# What do the attr methods do for you?
+
+# This cleans up the code, elminiating the need to include methods that return or change values.
+
+# Should you always use an accessor to cover your bases? Why or why not?
+
+# No. In the case of the challenge here, I used just attr_reader because there was no need to ever change the name, or at least that was not specified in the challenge. You should think about what you want attr to do, and then use it accordingly.
+
+# What is confusing to you about these methods?
+
+# I am still not entirely sure how classes work. Once I have completed a challenge, everything makes sense, but sometimes getting there can be a bit of a hassle. For instance, it took awhile to synthesize what the earlier releases of the challenges had to do with this challenge, when the provided examples didn't use attr at all. It was very confusing. I probably just need more practice.
