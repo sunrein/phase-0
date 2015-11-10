@@ -42,10 +42,10 @@ function min(a, b) {
 }
 
 var me = {
-	name: ["Sabrina"]
-	age: [22]
-	favorite_foods: ["chocolate", "sushi", "peanut butter"]
-	quirk: ["reads over 100 books each year"]
+	name: "Sabrina",
+	age: 22,
+	favorite_foods: ["chocolate", "sushi", "peanut butter"],
+	quirk: "reads over 100 books each year"
 }
 
 // Data Structures: Objects and Arrays
