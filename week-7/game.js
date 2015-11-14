@@ -147,7 +147,7 @@ else if(survivor.pX === zombieTwo.pX && survivor.pY === zombieTwo.pY)
   console.log("Ouch! Zombie Two bit you! Game Over (×□×；)")
   
   else if(survivor.pX === zombieThree.pX && survivor.pY === zombieThree.pY)
-  console.log("Ouch! Zombie 3 bit you!! Game Over (×□×；)");
+  console.log("Ouch! Zombie Three bit you!! Game Over (×□×；)");
 
 },
 
@@ -155,7 +155,7 @@ build: function(){
     this.barricades += 1;
     console.log("Survivor barricades increased by 1 ٩(^ᴗ^)۶")
     
-      if(survivor.barricades === 3)
+      if(survivor.barricades === 5)
         console.log("You successfully barricaded the building! You won! ヽ(^o^)丿")
     }
 }
