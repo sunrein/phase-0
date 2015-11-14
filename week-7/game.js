@@ -147,7 +147,7 @@ else if(survivor.pX === zombieTwo.pX && survivor.pY === zombieTwo.pY)
   console.log("Ouch! Zombie Two bit you! Game Over (×□×；)")
   
   else if(survivor.pX === zombieThree.pX && survivor.pY === zombieThree.pY)
-  console.log("Ouch! Zombie 3 bit you!! Game Over (×□×；)");
+  console.log("Ouch! Zombie Three bit you!! Game Over (×□×；)");
 
 },
 
@@ -155,7 +155,7 @@ build: function(){
     this.barricades += 1;
     console.log("Survivor barricades increased by 1 ٩(^ᴗ^)۶")
     
-      if(survivor.barricades === 3)
+      if(survivor.barricades === 5)
         console.log("You successfully barricaded the building! You won! ヽ(^o^)丿")
     }
 }
@@ -181,7 +181,7 @@ pY: Math.floor((Math.random()*12)+1)
 // Reflection
 // What was the most difficult part of this challenge?
 
-// Honestly? Coming up with a game idea. I spent the first two hours trying to make a Shakespearean insult generator, but I couldn't get it to work propery and was just confusing myself, so I conuslted the provided example for more direction with what my game should be. This is why my game resembes that one so much, because I struggled to think of a game that could be run in JavaScript and I was proficient enough to write myself. So, I thought about a zombie game. I know that in terms of positioning my game is similar, but that's where I tried to stop my borrowing and demonstrate my own work.
+// Honestly? Coming up with a game idea. I spent the first two hours trying to make a Shakespearean insult generator, but I couldn't get it to work properly and I was just confusing myself, so I conuslted the provided example for more direction with what my game should be. This is why my game resembes that one so much, because I struggled to think of a game that could be run in JavaScript and I was proficient enough to write myself. For my own game design, I thought about a zombie game. I know that in terms of positioning my game is similar, but that's where I tried to stop my borrowing and demonstrate my own work.
 
 // What did you learn about creating objects and functions that interact with one another?
 
