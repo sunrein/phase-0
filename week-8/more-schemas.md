@@ -19,6 +19,6 @@ Trying to relate one data set to another set of data, wherein there may be multi
 I'm having trouble contextualizing all of the relationships right now. The examples given make sense, but I'm not sure exactly how I'll use them myself. I imagine that figuring out the relationship between the data sets is the first step, because then you know how it is orgainzed, one to many, many to many, or one to one. I imagine more practice will clarify everything. Also, I found the schema creation website to be anything but intutitive. It took me a long time to figure out how to make things the way I wanted them to be.
 
 
-![one-to-one](/../one_to_one.png)
+![one-to-one](/../imgs/one_to_one.png)
 
-![many-to-many](/../many_to_many.png)
+![many-to-many](/../imgs/many_to_many.png)
