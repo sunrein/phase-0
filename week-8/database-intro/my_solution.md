@@ -18,7 +18,7 @@
 
 10. Select the region_name and the state_name for all states and regions in ascending order by region_id. Refer to the region by name. (This will involve joining the tables). 'select regions.region_name, states.state_name from states inner join regions on states.region_id = regions.id order by states.region_id ASC;
 
-![schema](shema.png)
+![schema](schema.png)
 
 ###What are databases for?
 
